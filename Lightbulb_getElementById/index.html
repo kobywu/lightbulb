@@ -1,0 +1,29 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="images/bolt.ico" rel="icon" type="image/x-icon" />
+		<title>Light Bulbs</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div class="flex-container">
+			<div class="third-column" id="white-background">
+				<!-- the "this" in parenthesis refers to the element that was just clicked -->
+				<div class="off_white" onclick="on(this)"></div>
+			</div>
+			<div class="third-column" id="blue-background">
+				<!-- the "this" in parenthesis refers to the element that was just clicked -->
+				<div class="on_blue" onclick="blue(this)"></div>
+			</div>
+			<div class="third-column" id="purple-background">
+				<div class="off_purple" onclick="uv(this)"></div>
+			</div>
+		</div>
+		
+		<script src="script.js"></script>
+	</body>
+	
+</html>
