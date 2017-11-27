@@ -1,0 +1,40 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	background-color: #000000 
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.third-column {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: calc(100vw/3);
+}
+
+.white{
+	background-color: #ffffff;
+}
+
+
+.blue {
+	background-color:blue;
+}
+.purple{
+	background-color: #7f1ae5;
+}
+.off_white {content:url(images/off_w.png);}
+.on_white {content:url(images/on_w.png);}
+
+.off_purple {content:url(images/off_p.png);}
+.on_purple {content:url(images/on_p.png);}
+
+
+.off_blue {content:url(images/off_blue.png);}
+.on_blue {content:url(images/on_blue.png);}
